@@ -1,0 +1,14 @@
+# 논문별 폴더가 여기에 생성됩니다.
+# 폴더명 규칙: <연도>_<핵심키워드>_<제1저자>  예: 2023_DeepHedging_Buehler
+#
+# 각 논문 폴더 표준 구조:
+#   <논문폴더>/
+#   ├── paper.pdf
+#   ├── summary.md            # 논문 분석 요약 (Phase 2)
+#   ├── requirements.txt      # 이 논문 전용 의존성 (torch/jax/QuantLib 등)
+#   ├── models/               # 구현 코드 (수식 번호 주석 연결)
+#   ├── results/
+#   │   ├── in_sample/        # ① 논문 동일 종목·기간 재현
+#   │   ├── out_of_sample/    # ② 다른 종목/섹터 ≥3개
+#   │   └── time_robustness/  # ③ 다른 시간대 ≥3구간
+#   └── report.md             # ④ 최종 검증 리포트 (비교표 + 차트)

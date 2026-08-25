@@ -1,0 +1,455 @@
+[
+ {
+  "arxiv_id": "2309.03736",
+  "title": "TradingGPT: Multi-Agent System with Layered Memory and Distinct Characters for Enhanced Financial Trading Performance",
+  "year": 2023,
+  "date": "2023-09-07",
+  "citations": 97,
+  "authors": [
+   "Yang Li",
+   "Yangyang Yu",
+   "Haohang Li",
+   "Z. Chen"
+  ],
+  "fieldsOfStudy": [
+   "Economics"
+  ],
+  "relevance": 5,
+  "abstract": "Large Language Models (LLMs), prominently highlighted by the recent evolution in the Generative Pre-trained Transformers (GPT) series, have displayed significant prowess across various domains, such as aiding in healthcare diagnostics and curating analytical business reports. The efficacy of GPTs lies in their ability to decode human instructions, achieved through comprehensively processing historical inputs as an entirety within their memory system. Yet, the memory processing of GPTs does not precisely emulate the hierarchical nature of human memory. This can result in LLMs struggling to prioritize immediate and critical tasks efficiently. To bridge this gap, we introduce an innovative LLM multi-agent framework endowed with layered memories. We assert that this framework is well-suited for stock and fund trading, where the extraction of highly relevant insights from hierarchical financial data is imperative to inform trading decisions. Within this framework, one agent organizes memory into three distinct layers, each governed by a custom decay mechanism, aligning more closely with human cognitive processes. Agents can also engage in inter-agent debate. In financial trading contexts, LLMs serve as the decision core for trading agents, leveraging their layered memory system to integrate multi-source historical actions and market insights. This equips them to navigate financial changes, formulate strategies, and debate with peer agents about investment decisions. Another standout feature of our approach is to equip agents with individualized trading traits, enhancing memory diversity and decision robustness. These sophisticated designs boost the system's responsiveness to historical trades and real-time market signals, ensuring superior automated trading accuracy."
+ },
+ {
+  "arxiv_id": "2307.01717",
+  "title": "On the Constrained Time-Series Generation Problem",
+  "year": 2023,
+  "date": "2023-07-04",
+  "citations": 76,
+  "authors": [
+   "Andrea Coletta",
+   "Sriram Gopalakrishnan",
+   "D. Borrajo",
+   "Svitlana Vyetrenko"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "Synthetic time series are often used in practical applications to augment the historical time series dataset for better performance of machine learning algorithms, amplify the occurrence of rare events, and also create counterfactual scenarios described by the time series. Distributional-similarity (which we refer to as realism) as well as the satisfaction of certain numerical constraints are common requirements in counterfactual time series scenario generation requests. For instance, the US Federal Reserve publishes synthetic market stress scenarios given by the constrained time series for financial institutions to assess their performance in hypothetical recessions. Existing approaches for generating constrained time series usually penalize training loss to enforce constraints, and reject non-conforming samples. However, these approaches would require re-training if we change constraints, and rejection sampling can be computationally expensive, or impractical for complex constraints. In this paper, we propose a novel set of methods to tackle the constrained time series generation problem and provide efficient sampling while ensuring the realism of generated time series. In particular, we frame the problem using a constrained optimization framework and then we propose a set of generative methods including\"GuidedDiffTime\", a guided diffusion model to generate realistic time series. Empirically, we evaluate our work on several datasets for financial and energy data, where incorporating constraints is critical. We show that our approaches outperform existing work both qualitatively and quantitatively. Most importantly, we show that our\"GuidedDiffTime\"model is the only solution where re-training is not necessary for new constraints, resulting in a significant carbon footprint reduction, up to 92% w.r.t. existing deep learning methods."
+ },
+ {
+  "arxiv_id": "2301.13235",
+  "title": "Joint calibration to SPX and VIX options with signature‐based models",
+  "year": 2023,
+  "date": "2023-01-30",
+  "citations": 44,
+  "authors": [
+   "Christa Cuchiero",
+   "Guido Gazzani",
+   "Janka Möller",
+   "Sara Svaluto‐Ferro"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Mathematics"
+  ],
+  "relevance": 8,
+  "abstract": "We consider a stochastic volatility model where the dynamics of the volatility are described by a linear function of the (time extended) signature of a primary process which is supposed to be a polynomial diffusion. We obtain closed form expressions for the VIX squared, exploiting the fact that the truncated signature of a polynomial diffusion is again a polynomial diffusion. Adding to such a primary process the Brownian motion driving the stock price, allows then to express both the log‐price and the VIX squared as linear functions of the signature of the corresponding augmented process. This feature can then be efficiently used for pricing and calibration purposes. Indeed, as the signature samples can be easily precomputed, the calibration task can be split into an offline sampling and a standard optimization. We also propose a Fourier pricing approach for both VIX and SPX options exploiting that the signature of the augmented primary process is an infinite dimensional affine process. For both the SPX and VIX options we obtain highly accurate calibration results, showing that this model class allows to solve the joint calibration problem without adding jumps or rough volatility."
+ },
+ {
+  "arxiv_id": "2404.03523",
+  "title": "Integrating Generative AI into Financial Market Prediction for Improved Decision Making",
+  "year": 2024,
+  "date": "2024-04-04",
+  "citations": 42,
+  "authors": [
+   "Chang Che",
+   "Zengyi Huang",
+   "Chen Li",
+   "Haotian Zheng"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "This study provides an in-depth analysis of the model architecture and key technologies of generative artificial intelligence, combined with specific application cases, and uses conditional generative adversarial networks ( cGAN ) and time series analysis methods to simulate and predict dynamic changes in financial markets. The research results show that the cGAN model can effectively capture the complexity of financial market data, and the deviation between the prediction results and the actual market performance is minimal, showing a high degree of accuracy. Through investment return analysis, the application value of model predictions in actual investment strategies is confirmed, providing investors with new ways to improve the decision-making process. In addition, the evaluation of model stability and reliability also shows that although there are still challenges in responding to market emergencies, overall, GAI technology has shown great potential and application value in the field of financial market prediction. The conclusion points out that integrating generative artificial intelligence into financial market forecasts can not only improve the accuracy of forecasts, but also provide powerful data support for financial decisions, helping investors make more informed decisions in a complex and ever-changing market environment. choose."
+ },
+ {
+  "arxiv_id": "2309.00073",
+  "title": "Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction",
+  "year": 2023,
+  "date": "2023-08-18",
+  "citations": 40,
+  "authors": [
+   "Kelvin J.L. Koa",
+   "Yunshan Ma",
+   "Ritchie Ng",
+   "Tat-Seng Chua"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Economics"
+  ],
+  "relevance": 10,
+  "abstract": "Multi-step stock price prediction over a long-term horizon is crucial for forecasting its volatility, allowing financial institutions to price and hedge derivatives, and banks to quantify the risk in their trading books. Additionally, most financial regulators also require a liquidity horizon of several days for institutional investors to exit their risky assets, in order to not materially affect market prices. However, the task of multi-step stock price prediction is challenging, given the highly stochastic nature of stock data. Current solutions to tackle this problem are mostly designed for single-step, classification-based predictions, and are limited to low representation expressiveness. The problem also gets progressively harder with the introduction of the target price sequence, which also contains stochastic noise and reduces generalizability at test-time. To tackle these issues, we combine a deep hierarchical variational-autoencoder (VAE) and diffusion probabilistic techniques to do seq2seq stock prediction through a stochastic generative process. The hierarchical VAE allows us to learn the complex and low-level latent variables for stock prediction, while the diffusion probabilistic model trains the predictor to handle stock price stochasticity by progressively adding random noise to the stock data. To deal with the additional stochasticity in the target price sequence, we also augment the target series with noise via a coupled diffusion process. We then perform a denoising process to \"clean\" the prediction outputs that were trained on the stochastic target sequence data, which increases the generalizability of the model at test-time. Our Diffusion-VAE (D-Va) model is shown to outperform state-of-the-art solutions in terms of its prediction accuracy and variance. Through an ablation study, we also show how each of the components introduced helps to improve overall prediction accuracy by reducing the data noise. Most importantly, the multi-step outputs can also allow us to form a stock portfolio over the prediction length. We demonstrate the effectiveness of our model outputs in the portfolio investment task through the Sharpe ratio metric and highlight the importance of dealing with different types of prediction uncertainties. Our code can be accessed through https://github.com/koa-fin/dva."
+ },
+ {
+  "arxiv_id": "2402.16609",
+  "title": "Combining transformer based deep reinforcement learning with Black-Litterman model for portfolio optimization",
+  "year": 2024,
+  "date": "2024-02-23",
+  "citations": 25,
+  "authors": [
+   "Ruoyu Sun",
+   "Angelos Stefanidis",
+   "Zhengyong Jiang",
+   "Jionglong Su"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Economics"
+  ],
+  "relevance": 6,
+  "abstract": "As a model-free algorithm, deep reinforcement learning (DRL) agent learns and makes decisions by interacting with the environment in an unsupervised way. In recent years, DRL algorithms have been widely applied by scholars for portfolio optimization in consecutive trading periods, since the DRL agent can dynamically adapt to market changes and does not rely on the specification of the joint dynamics across the assets. However, typical DRL agents for portfolio optimization cannot learn a policy that is aware of the dynamic correlation between portfolio asset returns. Since the dynamic correlations among portfolio assets are crucial in optimizing the portfolio, the lack of such knowledge makes it difficult for the DRL agent to maximize the return per unit of risk, especially when the target market permits short selling (i.e., the US stock market). In this research, we propose a hybrid portfolio optimization model combining the DRL agent and the Black-Litterman (BL) model to enable the DRL agent to learn the dynamic correlation between the portfolio asset returns and implement an efficacious long/short strategy based on the correlation. Essentially, the DRL agent is trained to learn the policy to apply the BL model to determine the target portfolio weights. In this model, we formulate a specific objective function based on the environment’s reward function, which considers the return, risk, and transaction scale of the portfolio. Our DRL agent is trained by propagating the objective function’s gradient to the policy function of our DRL agent. To test our DRL agent, we construct the portfolio based on all the Dow Jones Industrial Average constitute stocks. Empirical results of the experiments conducted on real-world United States stock market data demonstrate that our DRL agent significantly outperforms various comparison portfolio choice strategies and alternative DRL frameworks by at least 42% in terms of accumulated return. In terms of the return per unit of risk, our DRL agent significantly outperforms various comparative portfolio choice strategies and alternative strategies based on other machine learning frameworks."
+ },
+ {
+  "arxiv_id": "2311.10801",
+  "title": "Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools",
+  "year": 2023,
+  "date": "2023-11-17",
+  "citations": 19,
+  "authors": [
+   "Wentao Zhang",
+   "Yilei Zhao",
+   "Shuo Sun",
+   "Jie Ying"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "Portfolio management (PM) is a fundamental financial trading task, which explores the optimal periodical reallocation of capitals into different stocks to pursue long-term profits. Reinforcement learning (RL) has recently shown its potential to train profitable agents for PM through interacting with financial markets. However, existing work mostly focuses on fixed stock pools, which is inconsistent with investors' practical demand. Specifically, the target stock pool of different investors varies dramatically due to their discrepancy on market states and individual investors may temporally adjust stocks they desire to trade (e.g., adding one popular stocks), which lead to customizable stock pools (CSPs). Existing RL methods require to retrain RL agents even with a tiny change of the stock pool, which leads to high computational cost and unstable performance. To tackle this challenge, we propose EarnMore, a rEinforcement leARNing framework with Maskable stOck REpresentation to handle PM with CSPs through one-shot training in a global stock pool (GSP). Specifically, we first introduce a mechanism to mask out the representation of the stocks outside the target pool. Second, we learn meaningful stock representations through a self-supervised masking and reconstruction process. Third, a re-weighting mechanism is designed to make the portfolio concentrate on favorable stocks and neglect the stocks outside the target pool. Through extensive experiments on 8 subset stock pools of the US stock market, we demonstrate that EarnMore significantly outperforms 14 state-of-the-art baselines in terms of 6 popular financial metrics with over 40% improvement on profit. Code is available in PyTorch1."
+ },
+ {
+  "arxiv_id": "2309.01033",
+  "title": "From Constant to Rough: A Survey of Continuous Volatility Modeling",
+  "year": 2023,
+  "date": "2023-09-02",
+  "citations": 17,
+  "authors": [
+   "Giulia di Nunno",
+   "K. Kubilius",
+   "Y. Mishura",
+   "Anton Yurchenko-Tytarenko"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Mathematics"
+  ],
+  "relevance": 4,
+  "abstract": "In this paper, we present a comprehensive survey of continuous stochastic volatility models, discussing their historical development and the key stylized facts that have driven the field. Special attention is dedicated to fractional and rough methods: without advocating for either roughness or long memory, we outline the motivation behind them and characterize some landmark models. In addition, we briefly touch on the problem of VIX modeling and recent advances in the SPX-VIX joint calibration puzzle."
+ },
+ {
+  "arxiv_id": "2309.07708",
+  "title": "Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context",
+  "year": 2023,
+  "date": "2023-09-14",
+  "citations": 16,
+  "authors": [
+   "Haochong Xia",
+   "Shuo Sun",
+   "Xinrun Wang",
+   "Bo An"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Economics"
+  ],
+  "relevance": 3,
+  "abstract": "Financial simulators play an important role in enhancing forecasting accuracy, managing risks, and fostering strategic financial decision-making. Despite the development of financial market simulation methodologies, existing frameworks often struggle with adapting to specialized simulation context. We pinpoint the challenges as i) current financial datasets do not contain context labels; ii) current techniques are not designed to generate financial data with context as control, which demands greater precision compared to other modalities; iii) the inherent difficulties in generating context-aligned, high-fidelity data given the non-stationary, noisy nature of financial data. To address these challenges, our contributions are: i) we proposed the Contextual Market Dataset with market dynamics, stock ticker, and history state as context, leveraging a market dynamics modeling method that combines linear regression and clustering to extract market dynamics; ii) we present Market-GAN, a novel architecture incorporating a Generative Adversarial Networks (GAN) for the controllable generation with context, an autoencoder for learning low-dimension features, and supervisors for knowledge transfer; iii) we introduce a two-stage training scheme to ensure that Market-GAN captures the intrinsic market distribution with multiple objectives. In the pertaining stage, with the use of the autoencoder and supervisors, we prepare the generator with a better initialization for the adversarial training stage. We propose a set of holistic evaluation metrics that consider alignment, fidelity, data usability on downstream tasks, and market facts. We evaluate Market-GAN with the Dow Jones Industrial Average data from 2000 to 2023 and showcase superior performance in comparison to 4 state-of-the-art time-series generative models."
+ },
+ {
+  "arxiv_id": "2402.00515",
+  "title": "Developing A Multi-Agent and Self-Adaptive Framework with Deep Reinforcement Learning for Dynamic Portfolio Risk Management",
+  "year": 2024,
+  "date": "2024-02-01",
+  "citations": 15,
+  "authors": [
+   "Zhenglong Li",
+   "Vincent Tam",
+   "K. L. Yeung"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Economics"
+  ],
+  "relevance": 4,
+  "abstract": "Deep or reinforcement learning (RL) approaches have been adapted as reactive agents to quickly learn and respond with new investment strategies for portfolio management under the highly turbulent financial market environments in recent years. In many cases, due to the very complex correlations among various financial sectors, and the fluctuating trends in different financial markets, a deep or reinforcement learning based agent can be biased in maximising the total returns of the newly formulated investment portfolio while neglecting its potential risks under the turmoil of various market conditions in the global or regional sectors. Accordingly, a multi-agent and self-adaptive framework namely the MASA is proposed in which a sophisticated multi-agent reinforcement learning (RL) approach is adopted through two cooperating and reactive agents to carefully and dynamically balance the trade-off between the overall portfolio returns and their potential risks. Besides, a very flexible and proactive agent as the market observer is integrated into the MASA framework to provide some additional information on the estimated market trends as valuable feedbacks for multi-agent RL approach to quickly adapt to the ever-changing market conditions. The obtained empirical results clearly reveal the potential strengths of our proposed MASA framework based on the multi-agent RL approach against many well-known RL-based approaches on the challenging data sets of the CSI 300, Dow Jones Industrial Average and S&P 500 indexes over the past 10 years. More importantly, our proposed MASA framework shed lights on many possible directions for future investigation."
+ },
+ {
+  "arxiv_id": "2508.02739",
+  "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+  "year": 2025,
+  "date": "2025-08-02",
+  "citations": 15,
+  "authors": [
+   "Yu Shi",
+   "Zongliang Fu",
+   "Shuo Chen",
+   "Bohan Zhao"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 3,
+  "abstract": "The success of large-scale pre-training paradigm, exemplified by Large Language Models (LLMs), has inspired the development of Time Series Foundation Models (TSFMs). However, their application to financial candlestick (K-line) data remains limited, often underperforming non-pre-trained architectures. Moreover, existing TSFMs often overlook crucial downstream tasks such as volatility prediction and synthetic data generation. To address these limitations, we propose Kronos, a unified, scalable pre-training framework tailored to financial K-line modeling. Kronos introduces a specialized tokenizer that discretizes continuous market information into token sequences, preserving both price dynamics and trade activity patterns. We pre-train Kronos using an autoregressive objective on a massive, multi-market corpus of over 12 billion K-line records from 45 global exchanges, enabling it to learn nuanced temporal and cross-asset representations. Kronos excels in a zero-shot setting across a diverse set of financial tasks. On benchmark datasets, Kronos boosts price series forecasting RankIC by 93% over the leading TSFM and 87% over the best non-pre-trained baseline. It also achieves a 9% lower MAE in volatility forecasting and a 22% improvement in generative fidelity for synthetic K-line sequences. These results establish Kronos as a robust, versatile foundation model for end-to-end financial time series analysis."
+ },
+ {
+  "arxiv_id": "2410.03707",
+  "title": "Mamba Meets Financial Markets: A Graph-Mamba Approach for Stock Price Prediction",
+  "year": 2024,
+  "date": "2024-09-26",
+  "citations": 15,
+  "authors": [
+   "Ali Mehrabian",
+   "Ehsan Hoseinzade",
+   "Mahdi Mazloum",
+   "Xiaohong Chen"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 3,
+  "abstract": "Stock markets play an important role in the global economy, where accurate stock price predictions can lead to significant financial returns. While existing transformer-based models have outperformed long short-term memory networks and convolutional neural networks in financial time series prediction, their high computational complexity and memory requirements limit their practicality for real-time trading and long-sequence data processing. To address these challenges, we propose SAMBA, an innovative framework for stock return prediction that builds on the Mamba architecture and integrates graph neural networks. SAMBA achieves near-linear computational complexity by utilizing a bidirectional Mamba block to capture long-term dependencies in historical price data and employing adaptive graph convolution to model dependencies between daily stock features. Our experimental results demonstrate that SAMBA significantly outperforms state-of-the-art baseline models in prediction accuracy, maintaining low computational complexity. The code and datasets are available at github.com/Ali-Meh619/SAMBA."
+ },
+ {
+  "arxiv_id": "2303.11959",
+  "title": "Optimizing Trading Strategies in Quantitative Markets Using Multi-Agent Reinforcement Learning",
+  "year": 2023,
+  "date": "2023-03-15",
+  "citations": 14,
+  "authors": [
+   "Hengxi Zhang",
+   "Zhendong Shi",
+   "Yuanquan Hu",
+   "Wenbo Ding"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "Quantitative markets are characterized by swift dynamics and abundant uncertainties, making the pursuit of profit-driven stock trading actions inherently challenging. Within this context, Reinforcement Learning (RL) — which operates on a reward-centric mechanism for optimal control — has surfaced as a potentially effective solution to the intricate financial decision-making conundrums presented. This paper delves into the fusion of two established financial trading strategies, namely the constant proportion portfolio insurance (CPPI) and the time-invariant portfolio protection (TIPP), with the multi-agent deep deterministic policy gradient (MADDPG) framework. As a result, we introduce two novel multi-agent RL (MARL) methods: CPPI-MADDPG and TIPP-MADDPG, tailored for probing strategic trading within quantitative markets. To validate these innovations, we implemented them on a diverse selection of 100 real-market shares. Our empirical findings reveal that the CPPI-MADDPG and TIPP-MADDPG strategies consistently outpace their traditional counterparts, affirming their efficacy in the realm of quantitative trading."
+ },
+ {
+  "arxiv_id": "2401.09467",
+  "title": "Offline Handwriting Signature Verification: A Transfer Learning and Feature Selection Approach",
+  "year": 2023,
+  "date": "2023-12-30",
+  "citations": 14,
+  "authors": [
+   "Fatih Ozyurt",
+   "Jafar Majidpour",
+   "Tarik Ahmed Rashid",
+   "Canan Koç"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Engineering"
+  ],
+  "relevance": 4,
+  "abstract": "Handwritten signature verification poses a formidable challenge in biometrics and document authenticity. The objective is to ascertain the authenticity of a provided handwritten signature, distinguishing between genuine and forged ones. This issue has many applications in sectors such as finance, legal documentation, and security. Currently, the field of computer vision and machine learning has made significant progress in the domain of handwritten signature verification. The outcomes, however, may be enhanced depending on the acquired findings, the structure of the datasets, and the used models. Four stages make up our suggested strategy. First, we collected a large dataset of 12600 images from 420 distinct individuals, and each individual has 30 signatures of a certain kind (All authors signatures are genuine). In the subsequent stage, the best features from each image were extracted using a deep learning model named MobileNetV2. During the feature selection step, three selectors neighborhood component analysis (NCA), Chi2, and mutual info (MI) were used to pull out 200, 300, 400, and 500 features, giving a total of 12 feature vectors. Finally, 12 results have been obtained by applying machine learning techniques such as SVM with kernels (rbf, poly, and linear), KNN, DT, Linear Discriminant Analysis, and Naive Bayes. Without employing feature selection techniques, our suggested offline signature verification achieved a classification accuracy of 91.3%, whereas using the NCA feature selection approach with just 300 features it achieved a classification accuracy of 97.7%. High classification accuracy was achieved using the designed and suggested model, which also has the benefit of being a self-organized framework. Consequently, using the optimum minimally chosen features, the proposed method could identify the best model performance and result validation prediction vectors."
+ },
+ {
+  "arxiv_id": "2410.18897",
+  "title": "Generation of synthetic financial time series by diffusion models",
+  "year": 2024,
+  "date": "2024-10-24",
+  "citations": 13,
+  "authors": [
+   "Tomonori Takahashi",
+   "T. Mizuno"
+  ],
+  "fieldsOfStudy": [
+   "Economics"
+  ],
+  "relevance": 5,
+  "abstract": "Despite its practical significance, generating realistic synthetic financial time series is challenging due to statistical properties known as stylized facts, such as fat tails, volatility clustering, and seasonality patterns. Various generative models, including generative adversarial networks (GANs) and variational autoencoders (VAEs), have been employed to address this challenge, although no model yet satisfies all the stylized facts. We alternatively propose utilizing diffusion models, specifically denoising diffusion probabilistic models (DDPMs), to generate synthetic financial time series. This approach employs wavelet transformation to convert multiple time series (into images), such as stock prices, trading volumes, and spreads. Given these converted images, the model gains the ability to generate images that can be transformed back into realistic time series by inverse wavelet transformation. We demonstrate that our proposed approach satisfies stylized facts."
+ },
+ {
+  "arxiv_id": "2306.03163",
+  "title": "How Can We Train Deep Learning Models Across Clouds and Continents? An Experimental Study",
+  "year": 2023,
+  "date": "2023-06-05",
+  "citations": 13,
+  "authors": [
+   "Alexander Isenko",
+   "R. Mayer",
+   "H. Jacobsen"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "This paper aims to answer the question: Can deep learning models be cost-efficiently trained on a global market of spot VMs spanning different data centers and cloud providers? To provide guidance, we extensively evaluate the cost and throughput implications of training in different zones, continents, and clouds for representative CV, NLP and ASR models. To expand the current training options further, we compare the scalability potential for hybrid-cloud scenarios by adding cloud resources to on-premise hardware to improve training throughput. Finally, we show how leveraging spot instance pricing enables a new cost-efficient way to train models with multiple cheap VMs, trumping both more centralized and powerful hardware and even on-demand cloud offerings at competitive prices."
+ },
+ {
+  "arxiv_id": "2409.02138",
+  "title": "A Financial Time Series Denoiser Based on Diffusion Models",
+  "year": 2024,
+  "date": "2024-09-02",
+  "citations": 13,
+  "authors": [
+   "Zhuohan Wang",
+   "Carmine Ventre"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science",
+   "Economics"
+  ],
+  "relevance": 3,
+  "abstract": "Financial time series often exhibit low signal-to-noise ratio, posing significant challenges for accurate data interpretation and prediction and ultimately decision making. Generative models have gained attention as powerful tools for simulating and predicting intricate data patterns, with diffusion models emerging as particularly effective methods. This paper introduces a novel approach utilizing a diffusion model as a denoiser for financial time series in order to improve data predictability and trading performance. By leveraging the forward and reverse processes of a conditional diffusion model to add and remove noise progressively, we reconstruct original data from noisy inputs. Our extensive experiments demonstrate that diffusion model-based denoised time series significantly enhance the performance on downstream future return classification tasks. Moreover, trading signals derived from the denoised data yield more profitable trades with fewer transactions, thereby minimizing transaction costs and increasing overall trading efficiency. Finally, we show that by using classifiers trained on denoised time series, we can recognize how noisy the market is and obtain excess returns."
+ },
+ {
+  "arxiv_id": "2309.10129",
+  "title": "Adaptive Liquidity Provision in Uniswap V3 with Deep Reinforcement Learning",
+  "year": 2023,
+  "date": "2023-09-18",
+  "citations": 12,
+  "authors": [
+   "Haotong Zhang",
+   "Xi Chen",
+   "Lin F. Yang"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 6,
+  "abstract": "Decentralized exchanges (DEXs) are a cornerstone of decentralized finance (DeFi), allowing users to trade cryptocurrencies without the need for third-party authorization. Investors are incentivized to deposit assets into liquidity pools, against which users can trade directly, while paying fees to liquidity providers (LPs). However, a number of unresolved issues related to capital efficiency and market risk hinder DeFi's further development. Uniswap V3, a leading and groundbreaking DEX project, addresses capital efficiency by enabling LPs to concentrate their liquidity within specific price ranges for deposited assets. Nevertheless, this approach exacerbates market risk, as LPs earn trading fees only when asset prices are within these predetermined brackets. To mitigate this issue, this paper introduces a deep reinforcement learning (DRL) solution designed to adaptively adjust these price ranges, maximizing profits and mitigating market risks. Our approach also neutralizes price-change risks by hedging the liquidity position through a rebalancing portfolio in a centralized futures exchange. The DRL policy aims to optimize trading fees earned by LPs against associated costs, such as gas fees and hedging expenses, which is referred to as loss-versus-rebalancing (LVR). Using simulations with a profit-and-loss (PnL) benchmark, our method demonstrates superior performance in ETH/USDC and ETH/USDT pools compared to existing baselines. We believe that this strategy not only offers investors a valuable asset management tool but also introduces a new incentive mechanism for DEX designers."
+ },
+ {
+  "arxiv_id": "2401.06164",
+  "title": "Multimodal Gen-AI for Fundamental Investment Research",
+  "year": 2023,
+  "date": "2023-12-24",
+  "citations": 12,
+  "authors": [
+   "Le-Qun Li",
+   "Ting-Yu Chang",
+   "Hai Wang"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 2,
+  "abstract": "This report outlines a transformative initiative in the financial investment industry, where the conventional decision-making process, laden with labor-intensive tasks such as sifting through voluminous documents, is being reimagined. Leveraging language models, our experiments aim to automate information summarization and investment idea generation. We seek to evaluate the effectiveness of fine-tuning methods on a base model (Llama2) to achieve specific application-level goals, including providing insights into the impact of events on companies and sectors, understanding market condition relationships, generating investor-aligned investment ideas, and formatting results with stock recommendations and detailed explanations. Through state-of-the-art generative modeling techniques, the ultimate objective is to develop an AI agent prototype, liberating human investors from repetitive tasks and allowing a focus on high-level strategic thinking. The project encompasses a diverse corpus dataset, including research reports, investment memos, market news, and extensive time-series market data. We conducted three experiments applying unsupervised and supervised LoRA fine-tuning on the llama2_7b_hf_chat as the base model, as well as instruction fine-tuning on the GPT3.5 model. Statistical and human evaluations both show that the fine-tuned versions perform better in solving text modeling, summarization, reasoning, and finance domain questions, demonstrating a pivotal step towards enhancing decision-making processes in the financial domain. Code implementation for the project can be found on GitHub: https://github.com/Firenze11/finance_lm."
+ },
+ {
+  "arxiv_id": "2503.04143",
+  "title": "MTS: A Deep Reinforcement Learning Portfolio Management Framework with Time-Awareness and Short-Selling",
+  "year": 2025,
+  "date": "2025-03-06",
+  "citations": 10,
+  "authors": [
+   "Fengchen Gu",
+   "Zhengyong Jiang",
+   "Ángel García-Fernández",
+   "Angelos Stefanidis"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 7,
+  "abstract": "Portfolio management remains a crucial challenge in finance, with traditional methods often falling short in complex and volatile market environments. While deep reinforcement approaches have shown promise, they still face limitations in dynamic risk management, exploitation of temporal markets, and incorporation of complex trading strategies such as short-selling. These limitations can lead to suboptimal portfolio performance, increased vulnerability to market volatility, and missed opportunities in capturing potential returns from diverse market conditions. This paper introduces a Deep Reinforcement Learning Portfolio Management Framework with Time-Awareness and Short-Selling (MTS), offering a robust and adaptive strategy for sustainable investment performance. This framework utilizes a novel encoder-attention mechanism to address the limitations by incorporating temporal market characteristics, a parallel strategy for automated short-selling based on market trends, and risk management through innovative Incremental Conditional Value at Risk, enhancing adaptability and performance. Experimental validation on five diverse datasets from 2019 to 2023 demonstrates MTS’s superiority over traditional algorithms and advanced machine learning techniques. MTS consistently achieves higher cumulative returns, Sharpe, Omega, and Sortino ratios, underscoring its effectiveness in balancing risk and return while adapting to market dynamics. MTS demonstrates an average relative increase of 30.67 % in cumulative returns and 29.33 % in Sharpe ratio compared to the next best-performing strategies across various datasets."
+ },
+ {
+  "arxiv_id": "2401.10370",
+  "title": "Deep Generative Modeling for Financial Time Series with Application in VaR: A Comparative Review",
+  "year": 2024,
+  "date": "2024-01-18",
+  "citations": 10,
+  "authors": [
+   "Lars Ericson",
+   "Xuejun Zhu",
+   "Xusi Han",
+   "Rao Fu"
+  ],
+  "fieldsOfStudy": [
+   "Economics",
+   "Computer Science"
+  ],
+  "relevance": 7,
+  "abstract": "In the financial services industry, forecasting the risk factor distribution conditional on the history and the current market environment is the key to market risk modeling in general and value at risk (VaR) model in particular. As one of the most widely adopted VaR models in commercial banks, Historical simulation (HS) uses the empirical distribution of daily returns in a historical window as the forecast distribution of risk factor returns in the next day. The objectives for financial time series generation are to generate synthetic data paths with good variety, and similar distribution and dynamics to the original historical data. In this paper, we apply multiple existing deep generative methods (e.g., CGAN, CWGAN, Diffusion, and Signature WGAN) for conditional time series generation, and propose and test two new methods for conditional multi-step time series generation, namely Encoder-Decoder CGAN and Conditional TimeVAE. Furthermore, we introduce a comprehensive framework with a set of KPIs to measure the quality of the generated time series for financial modeling. The KPIs cover distribution distance, autocorrelation and backtesting. All models (HS, parametric and neural networks) are tested on both historical USD yield curve data and additional data simulated from GARCH and CIR processes. The study shows that top performing models are HS, GARCH and CWGAN models. Future research directions in this area are also discussed."
+ },
+ {
+  "arxiv_id": "2411.18731",
+  "title": "The Performance of the LSTM-based Code Generated by Large Language Models (LLMs) in Forecasting Time Series Data",
+  "year": 2024,
+  "date": "2024-11-01",
+  "citations": 10,
+  "authors": [
+   "Saroj Gopali",
+   "Sima Siami‐Namini",
+   "F. Abri",
+   "A. Namin"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 4,
+  "abstract": "As an intriguing case is the goodness of the machine and deep learning models generated by these LLMs in conducting automated scientific data analysis, where a data analyst may not have enough expertise in manually coding and optimizing complex deep learning models and codes and thus may opt to leverage LLMs to generate the required models. This paper investigates and compares the performance of the mainstream LLMs, such as ChatGPT, PaLM, LLama, and Falcon, in generating deep learning models for analyzing time series data, an important and popular data type with its prevalent applications in many application domains including financial and stock market. This research conducts a set of controlled experiments where the prompts for generating deep learning-based models are controlled with respect to sensitivity levels of four criteria including 1) Clarify and Specificity, 2) Objective and Intent, 3) Contextual Information, and 4) Format and Style. While the results are relatively mix, we observe some distinct patterns. We notice that using LLMs, we are able to generate deep learning-based models with executable codes for each dataset seperatly whose performance are comparable with the manually crafted and optimized LSTM models for predicting the whole time series dataset. We also noticed that ChatGPT outperforms the other LLMs in generating more accurate models. Furthermore, we observed that the goodness of the generated models vary with respect to the ``temperature'' parameter used in configuring LLMS. The results can be beneficial for data analysts and practitioners who would like to leverage generative AIs to produce good prediction models with acceptable goodness."
+ },
+ {
+  "arxiv_id": "2502.05878",
+  "title": "Retrieval-augmented Large Language Models for Financial Time Series Forecasting",
+  "year": 2025,
+  "date": "2025-02-09",
+  "citations": 10,
+  "authors": [
+   "Mengxi Xiao",
+   "Zihao Jiang",
+   "Lingfei Qian",
+   "Zhengyu Chen"
+  ],
+  "fieldsOfStudy": [
+   "Computer Science"
+  ],
+  "relevance": 3,
+  "abstract": "Accurately forecasting stock price movements is critical for informed financial decision-making, supporting applications ranging from algorithmic trading to risk management. However, this task remains challenging due to the difficulty of retrieving subtle yet high-impact patterns from noisy financial time-series data, where conventional retrieval methods, whether based on generic language models or simplistic numeric similarity, often fail to capture the intricate temporal dependencies and context-specific signals essential for precise market prediction. To bridge this gap, we introduce FinSrag, the first retrieval-augmented generation (RAG) framework with a novel domain-specific retriever FinSeer for financial time-series forecasting. FinSeer leverages a candidate selection mechanism refined by LLM feedback and a similarity-driven training objective to align queries with historically influential sequences while filtering out financial noise. Such training enables FinSeer to identify the most relevant time-series data segments for downstream forecasting tasks, unlike embedding or distance-based retrieval methods used in existing RAG frameworks. The retrieved patterns are then fed into StockLLM, a 1B-parameter LLM fine-tuned for stock movement prediction, which serves as the generative backbone. Beyond the retrieval method, we enrich the retrieval corpus by curating new datasets that integrate a broader set of financial indicators, capturing previously overlooked market dynamics. Experiments demonstrate that FinSeer outperforms existing textual retrievers and traditional distance-based retrieval approaches in enhancing the prediction accuracy of StockLLM, underscoring the importance of domain-specific retrieval frameworks in handling the complexity of financial time-series data."
+ },
+ {
+  "arxiv_id": "2406.02319",
+  "title": "Pricing and calibration in the 4-factor path-dependent volatility model",
+  "year": 2024,
+  "date": "2024-06-04",
+  "citations": 9,
+  "authors": [
+   "Guido Gazzani",
+   "Julien Guyon"
+  ],
+  "fieldsOfStudy": [
+   "Economics"
+  ],
+  "relevance": 6,
+  "abstract": "We consider the path-dependent volatility (PDV) model of Guyon and Lekeufack (2023), where the instantaneous volatility is a linear combination of a weighted sum of past returns and the square root of a weighted sum of past squared returns. We discuss the influence of an additional parameter that unlocks enough volatility on the upside to reproduce the implied volatility smiles of S&P 500 and VIX options. This PDV model, motivated by empirical studies, comes with computational challenges, especially in relation to VIX options pricing and calibration. We propose an accurate pathwise neural network approximation of the VIX which leverages on the Markovianity of the 4-factor version of the model. The VIX is learned pathwise as a function of the Markovian factors and the model parameters. We use this approximation to tackle the joint calibration of S&P 500 and VIX options, quickly sample VIX paths, and price derivatives that jointly depend on S&P 500 and VIX. As an interesting aside, we also show that this time-homogeneous, low-parametric, Markovian PDV model is able to fit the whole surface of S&P 500 implied volatilities remarkably well."
+ },
+ {
+  "arxiv_id": "2412.18563",
+  "title": "A Deep Reinforcement Learning Framework for Dynamic Portfolio Optimization: Evidence from China's Stock Market",
+  "year": 2024,
+  "date": "2024-12-24",
+  "citations": 9,
+  "authors": [
+   "Gang Huang",
+   "Xiaohua Zhou",
+   "Qingyang Song"
+  ],
+  "fieldsOfStudy": [
+   "Economics"
+  ],
+  "relevance": 6,
+  "abstract": "Artificial intelligence is transforming financial investment decision-making frameworks, with deep reinforcement learning demonstrating substantial potential in robo-advisory applications. This paper addresses the limitations of traditional portfolio optimization methods in dynamic asset weight adjustment through the development of a deep reinforcement learning-based dynamic optimization model grounded in practical trading processes. The research advances two key innovations: first, the introduction of a novel Sharpe ratio reward function engineered for Actor-Critic deep reinforcement learning algorithms, which ensures stable convergence during training while consistently achieving positive average Sharpe ratios; second, the development of an innovative comprehensive approach to portfolio optimization utilizing deep reinforcement learning, which significantly enhances model optimization capability through the integration of random sampling strategies during training with image-based deep neural network architectures for multi-dimensional financial time series data processing, average Sharpe ratio reward functions, and deep reinforcement learning algorithms. The empirical analysis validates the model using randomly selected constituent stocks from the CSI 300 Index, benchmarking against established financial econometric optimization models. Backtesting results demonstrate the model's efficacy in optimizing portfolio allocation and mitigating investment risk, yielding superior comprehensive performance metrics."
+ }
+]

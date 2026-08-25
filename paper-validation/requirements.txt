@@ -1,0 +1,19 @@
+# ── 환경/설정 ──
+python-dotenv          # .env 로딩
+
+# ── 데이터 소스 ──
+wrds                   # CRSP / Compustat / OptionMetrics / TAQ (학술 표준)
+yfinance               # 주가/ETF/인덱스 (무료, 폴백·탐색용)
+fredapi                # FRED 매크로 데이터
+requests               # arXiv / Semantic Scholar API
+
+# ── 데이터 처리 ──
+pandas
+numpy
+pyarrow                # parquet 캐시
+
+# ── 시각화 ──
+plotly
+
+# ── (논문 선택 후 추가) 논문별 의존성은 papers/<논문>/requirements.txt 에 분리 ──
+# 예시: torch, jax, QuantLib-Python, vectorbt, scipy, numba

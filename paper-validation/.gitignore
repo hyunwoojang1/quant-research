@@ -1,0 +1,28 @@
+# ── 비밀정보 ──
+.env
+*.pgpass
+
+# ── 데이터 캐시 (용량 큼, 재생성 가능) ──
+data/market/*
+data/macro/*
+data/derivatives/*
+!data/**/.gitkeep
+*.parquet
+*.csv
+*.h5
+*.feather
+
+# ── 논문 PDF (저작권) ──
+papers/**/*.pdf
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ── 결과물 중 대용량 산출물은 선택적으로 추적 ──
+# results 내 표/리포트(.md, .csv 요약)는 커밋 권장, 원시 덤프는 제외
