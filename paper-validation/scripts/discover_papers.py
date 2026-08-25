@@ -59,7 +59,8 @@ def is_qfin_arxiv(p: dict) -> bool:
         return False
     fos = p.get("fieldsOfStudy") or []
     # arXiv 이고 경제/수학/CS 계열이면 후보 (q-fin 직접 태그는 S2 에 없음)
-    return True if fos else True
+    allowed = {"Economics", "Mathematics", "Computer Science", "Business"}
+    return not fos or bool(allowed.intersection(fos))
 
 
 def main() -> None:

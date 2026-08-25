@@ -22,9 +22,16 @@ quant-research/
 │       └── report.md
 │
 ├── shared/                   # 논문 간 공용 유틸
-│   ├── data_loader.py        # WRDS/yfinance/FRED 통합 로더 (+parquet 캐시)
+│   ├── data_loader.py        # 주식(wrds|tiingo|yfinance 선택)·FRED 통합 로더 (+parquet 캐시)
 │   ├── backtest_utils.py     # Sharpe·MDD 등 성과지표 + 비교표 생성
 │   └── plot_utils.py         # Plotly 누적수익·드로다운·비교 차트
+│
+├── scripts/                  # 파이프라인 보조 스크립트
+│   ├── discover_papers.py    # arXiv+Semantic Scholar 후보 발굴
+│   ├── setup_papers.py       # 논문 폴더 스캐폴딩
+│   └── make_paper_docx.py    # 논문 한글 상세해설 docx 생성
+│
+├── tests/                    # 데이터 로더·API 연결 검사 (네트워크 필요)
 │
 ├── .env / .env.example       # FRED·WRDS 자격증명 (.env 는 커밋 금지)
 ├── requirements.txt          # 공용 의존성
@@ -77,12 +84,15 @@ copy .env.example .env          # Windows  (cp .env.example .env on *nix)
 
 | # | 논문 | 연도 | Phase | 핵심 클레임 | 재현 결과 | 상태 |
 |---|------|------|-------|-------------|-----------|------|
-| — | _(아직 선택된 논문 없음)_ | | | | | |
+| 1 | Diffusion-VAE 팩터 모델 (Koa et al.) | 2023 | ②분석 | 생성모형 기반 팩터 추출이 선형 PCA 대비 우수 | — | 🟡 분석 완료·재현 대기 |
+| 2 | Transformer-DRL + Black-Litterman (Sun et al.) | 2024 | ②분석 | DRL 뷰를 BL 사전분포에 주입해 포트폴리오 개선 | — | 🟡 분석 완료·재현 대기 |
 
 > Phase: ①발굴 ②분석 ③구현 ④검증 / 상태: 🔲대기 🟡진행 ✅재현 ⚠️부분재현 ❌실패
+>
+> 분석 산출물: 각 논문 폴더의 `paper_detailed_KR.docx`(상세 해설) + `prerequisites_KR.md`(선수지식 정리)
 
 ### 진행 로그
-- _논문 선택 시 여기에 항목 추가_
+- 2026-08: 논문 2편 Phase ② 완료 (한글 상세해설 + 선수지식 문서). Phase ③ 구현은 대기.
 
 ## 워크플로우 요약 (스킬과 연동)
 

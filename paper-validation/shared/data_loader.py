@@ -1,7 +1,8 @@
 """공용 데이터 로딩 유틸.
 
-데이터 소스 우선순위:
-  - in-sample 재현/주식: WRDS(CRSP) 우선, 실패 시 yfinance 폴백
+데이터 소스 선택 (PRIMARY_EQUITY_SOURCE = auto | wrds | tiingo | yfinance):
+  - 주식: auto 는 TIINGO_API_KEY 가 있으면 Tiingo, 없으면 yfinance 를 쓴다.
+    (소스 간 자동 폴백은 하지 않는다 — 실패는 명시적 에러로 드러낸다)
   - 매크로: FRED
   - 옵션: WRDS(OptionMetrics) — 무료 폴백 사실상 없음
 
